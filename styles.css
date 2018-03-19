@@ -342,33 +342,73 @@
 
   /*above this comment is a normalization sheet from LaunchCode*/
 
+header {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  color: whitesmoke;
+}
   p {
-    margin-top: 50px;
-    margin-bottom: 100px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     margin-right: 50px;
-    margin-left: 50px;
-    color: rgb(31, 23, 3);
+    margin-left: 49px;
+    color: rgb(236, 229, 209);
 }
 
-body{
-    background-color: burlywood;
-    background-image: repeating-linear-gradient(567);
+body {
+  /* The image used */
+  background-image: url("https://i.pinimg.com/originals/e9/42/8a/e9428adf1e382026a15bcdeb0ca12916.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: round;
+  background-size: cover;
 }
+    
 
 div {
-    padding-top: 25px;
-    padding-right: 25px;
-    padding-bottom: 50px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
     padding-left: 25px;
+}
+
+div li{
+    color: whitesmoke;
+    margin-left: 80px;
 }
 
 p.listname{
     font-style: cursize;
+    color: wheat;
 }
 p.cap{
-    font-size: 10px;
+    font-size: 15px;
+    color: whitesmoke;
 }
 
 #tagline{
     font-style: em;
+    color: wheat;
+    text-align: center;
 }
+
+img {
+	display: block;
+	height: 500px;
+	width: 400px;
+  margin: auto;
+  border-color: rgb(0, 0, 0);
+  border-width: 10px;
+  border-radius: 40;
+}
+
+h3{
+  color:wheat;
+  padding-left: 100px;
+}
+
