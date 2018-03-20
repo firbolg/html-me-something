@@ -348,6 +348,16 @@ header {
   margin-right: 30px;
   color: whitesmoke;
 }
+
+a {
+  line-height: 1em;
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px;
+  color: rgb(180, 241, 156);
+  border: 2px solid wheat;
+}
   p {
     margin-top: 15px;
     margin-bottom: 15px;
@@ -357,16 +367,10 @@ header {
 }
 
 body {
-  /* The image used */
   background-image: url("https://i.pinimg.com/originals/e9/42/8a/e9428adf1e382026a15bcdeb0ca12916.jpg");
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
+  background: no-repeat
   background-position: center;
-  background-repeat: round;
-  background-size: cover;
+  background-size: 100% 100%;
 }
     
 
@@ -404,7 +408,7 @@ img {
   margin: auto;
   border-color: rgb(0, 0, 0);
   border-width: 10px;
-  border-radius: 40;
+  border-radius: 45px;
 }
 
 h3{
